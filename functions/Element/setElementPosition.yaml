@@ -22,12 +22,12 @@ shared: &shared
     - name: 'y'
       type: 'float'
       description: 'The y coordinate of the destination.'
-    - name: 'y'
+    - name: 'z'
       type: 'float'
       description: 'The z coordinate of the destination.'
     - name: 'warp'
       type: 'bool'
-      default: 'false'
+      default: 'true'
       description: 'teleports players, resetting any animations they were doing. Setting this to false preserves the current animation.'
   returns:
     description: |

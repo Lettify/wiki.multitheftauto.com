@@ -25,6 +25,9 @@ export default defineConfig({
 				light: './src/assets/logo-black.png',
 				dark: './src/assets/logo-white.png',
 			},
+            social: [
+                { icon: 'github', label: 'GitHub', href: 'https://github.com/multitheftauto/wiki.multitheftauto.com' },
+            ],
 			components: {
 				// Override some default components
 				PageTitle: './src/overrides/PageTitle.astro',
@@ -77,6 +80,14 @@ export default defineConfig({
 							items: [
 								{label: 'Element types', link: 'Element'},
 								{label: 'Element tree', link: 'Element_tree'},
+								{label: 'Entities', link: 'Entity'},
+							]
+						},
+						{
+							label: 'OOP',
+							items: [
+								{label: 'About OOP', link: 'OOP_Introduction'},
+								{label: 'OOP Classes', link: 'OOP_Classes'},
 							]
 						},
 					]

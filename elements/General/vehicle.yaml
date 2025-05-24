@@ -1,0 +1,4 @@
+name: 'vehicle'
+description: |
+  The vehicle class represents vehicles in the GTA world. Vehicles can be occupied and controlled by players and peds.
+

@@ -13,9 +13,9 @@ shared: &shared
     - [object](/object)
     - [pickup](/pickup)
     - [marker](/marker)
-    - [collision shapes](/collision shapes)
+    - [collision shapes](/colshape)
     - [blip](/blip)
-    - [radar areas](/radar areas)
+    - [radar areas](/radararea)
   parameters:
     - name: 'theElement'
       type: 'element'

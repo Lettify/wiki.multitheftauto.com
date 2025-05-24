@@ -1,0 +1,4 @@
+name: 'camera'
+description: |
+  The camera class represents the local player camera rendering the game to the screen.
+

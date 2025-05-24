@@ -6,6 +6,34 @@
     --color-type-client-background: rgba(255, 50, 50, 0.05);
     --color-type-server: rgba(232, 115, 0, 1);
     --color-type-server-background: rgba(232, 115, 0, 0.05);
+    
+    /* Override Starlight styling */
+    --sl-content-width: 70rem;
+}
+.small-text {
+    font-size: 0.7em;
+}
+
+.function-syntax,
+.function-oop,
+.notes-section,
+.examples-section {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.see-also-section {
+    margin-top: 2rem;
+}
+
+.code-example {
+    margin-bottom: 1.5rem;
+}
+.code-example > :first-child {
+    margin-bottom: 0.5rem;
+}
+.code-example > :last-child {
+    margin-bottom: 0;
 }
 
 /* Styling for "Client-side / Server-side / Shared" */
